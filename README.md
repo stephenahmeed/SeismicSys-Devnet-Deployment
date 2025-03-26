@@ -13,7 +13,7 @@ A simple guide to deploying a contract on **SeismicSys Devnet** and earning the 
 Run the following command in your VPS terminal:
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/solotop999/blockchain_scripts/main/Seismic_deploy_contract.sh)
-```bash
+```
 
 This script will:  Install dependencies
 - Deploy the contract
@@ -37,13 +37,20 @@ Wait for the Magnitude 1.0 role
 
 Additional Commands
 Manually Deploy Contract
-bash
+
+```bash
 cd /root/try-devnet/packages/contract/ && bash script/deploy.sh
+```
+
 Interact with the Contract
-bash
+```bash
 cd /root/try-devnet/packages/cli/ && bash script/transact.sh
+```
+
 Uninstall & Remove Data
-bash
+```bash
 rm -rf /root/.seismic/ /root/try-devnet/
+```
+
 📢 Credits
 Special thanks to solotop999 for providing the original script.
