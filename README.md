@@ -19,6 +19,7 @@ This script will:  Install dependencies
 - Deploy the contract
 - Interact with the deployed contract
 Follow any prompts that appear (e.g., Press Enter, visit Seismic Faucet to get gas).
+Faucet: https://faucet-2.seismicdev.net/
 
 Final Steps
 Take a screenshot after successful deployment
